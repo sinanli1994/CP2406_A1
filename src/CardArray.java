@@ -3,7 +3,7 @@ import java.util.*;
 
 public class CardArray
 {
-    protected List<String> cardsArray = new ArrayList<>();
+    private List<String> cardsArray = new ArrayList<>();
 
     public CardArray() throws IOException {
         FileReader fr = new FileReader("src/card.txt");
